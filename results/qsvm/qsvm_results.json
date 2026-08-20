@@ -1,0 +1,19 @@
+{
+  "accuracy": 62.5,
+  "precision": 61.39,
+  "recall": 87.39,
+  "f1_score": 72.12,
+  "macro_f1": 57.43,
+  "confusion_matrix": [
+    [
+      28,
+      61
+    ],
+    [
+      14,
+      97
+    ]
+  ],
+  "training_time_sec": 0.26,
+  "prediction_time_ms": 0.981
+}

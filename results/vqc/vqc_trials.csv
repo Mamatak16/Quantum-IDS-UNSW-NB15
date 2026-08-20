@@ -1,0 +1,8 @@
+PCA,Scaler,Feature Map,Ansatz,Optimizer,Iterations,Validation Accuracy (%),Validation F1 (%),Training Time (s)
+4,standard,z,real_amplitudes,cobyla,30,45.33,43.06,18.4
+4,minmax,z,real_amplitudes,cobyla,40,53.33,55.13,26.57
+4,minmax,z,efficient_su2,spsa,40,38.67,41.77,93.79
+4,minmax,zz_full,efficient_su2,cobyla,50,49.33,48.65,38.93
+6,minmax,z,efficient_su2,cobyla,40,46.0,45.64,37.66
+6,minmax,zz_linear,real_amplitudes,spsa,40,50.0,51.61,118.15
+8,minmax,z,efficient_su2,cobyla,40,50.67,50.67,67.25

@@ -1,0 +1,36 @@
+{
+  "dataset": "UNSW-NB15 (Real)",
+  "pca_components": 4,
+  "models": [
+    {
+      "id": "svm",
+      "name": "Classical SVM (RBF Kernel)",
+      "status": "Available",
+      "accuracy": 59.5,
+      "precision": 60.14,
+      "recall": 80.18,
+      "f1_score": 68.73,
+      "training_time_sec": 0.02
+    },
+    {
+      "id": "qsvm",
+      "name": "QSVM (ZFeatureMap 4-Qubit)",
+      "status": "Available",
+      "accuracy": 62.5,
+      "precision": 61.39,
+      "recall": 87.39,
+      "f1_score": 72.12,
+      "training_time_sec": 0.26
+    },
+    {
+      "id": "vqc",
+      "name": "Basic VQC (4-Qubit COBYLA)",
+      "status": "Available",
+      "accuracy": 52.0,
+      "precision": 59.74,
+      "recall": 41.44,
+      "f1_score": 48.94,
+      "training_time_sec": 14.84
+    }
+  ]
+}
